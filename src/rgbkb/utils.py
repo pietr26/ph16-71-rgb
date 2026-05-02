@@ -6,7 +6,7 @@ from rgbkb.kb import RgbKeyboard
 from rgbkb.controller.device import AcerPredatorPH1671
 from rgbkb.controller.device import AcerPredatorPH1871
 
-SUPPORTED_DEVICES: tuple[Type[RgbKeyboard]] = (
+SUPPORTED_DEVICES: tuple[Type[RgbKeyboard], ...] = (
     AcerPredatorPH1671, AcerPredatorPH1871
 )
 
