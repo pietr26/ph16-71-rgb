@@ -1,8 +1,8 @@
 import argparse
 from textwrap import wrap
 from usbx import Device, RequestType, Recipient, ControlTransfer, TransferDirection
-from rgbkb.acer_ph16_71.commands import ARGUMENTS_TO_COMMANDS, EffectNames
-from rgbkb.acer_ph16_71.keys import KeyNames, GroupNames
+from rgbkb.controller.commands import ARGUMENTS_TO_COMMANDS, EffectNames
+from rgbkb.controller.keys import KeyNames, GroupNames
 from rgbkb.kb import RgbKeyboard, KeyboardCommand
 
 class OrderedArgs(argparse.Action):

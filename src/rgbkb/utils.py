@@ -3,8 +3,8 @@ from symtable import Class
 from typing import Type
 from usbx import Device, usb
 from rgbkb.kb import RgbKeyboard
-from rgbkb.acer_ph16_71.device import AcerPredatorPH1671
-from rgbkb.acer_ph16_71.device import AcerPredatorPH1871
+from rgbkb.controller.device import AcerPredatorPH1671
+from rgbkb.controller.device import AcerPredatorPH1871
 
 SUPPORTED_DEVICES: tuple[Type[RgbKeyboard]] = (
     AcerPredatorPH1671, AcerPredatorPH1871
